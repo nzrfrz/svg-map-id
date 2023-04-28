@@ -7,10 +7,10 @@ import loadjs from "loadjs";
 
 export const MapSVG = () => {
     const mapContainerRef = React.useRef();
-    console.log(window);
+    // console.log(window);
 
     React.useEffect(() => {
-        window.simplemaps_usmap.load();
+        // window.simplemaps_usmap.load();
         // Load SimpleMaps scripts
         // loadjs("/src/assets/data/mapdata.js", "simplemaps-data", {
         //     before: () => {
